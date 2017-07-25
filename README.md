@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 ```
-2. 传入配置，调用EmoticonRainView#start()方法
+2. 传入配置，调用EmoticonRainView#start(Conf)方法。PS:Conf可自行扩展
 ```java
     EmoticonRainView.Conf conf = new EmoticonRainView.Conf.Builder().bitmaps(bitmaps)
         .emoticonHeightPixel(dp50Pixel).emoticonWidthPixel(dp50Pixel).build();
