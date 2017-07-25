@@ -2,6 +2,8 @@
 ---
 通过重写View#onDraw()方法实现。支持多个表情轮流下落和动画结束自动回收Bitmap。
 
+![image](https://github.com/helloworldyx/EmoticonRainView/blob/master/show.gif)
+
 ### 使用方法
 ---
 1. 在XML文件中声明表情雨控件，如：
