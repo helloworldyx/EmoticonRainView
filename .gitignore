@@ -1,5 +1,11 @@
-/build
-# IDEA/Android Studio project files, because
-# the project can be imported from settings.gradle
-.idea
+ml
+gradlew
+gradlew.bat
+local.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+build
 *.iml
+.buckd/
+.idea/
+buck-out/
